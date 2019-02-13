@@ -228,11 +228,11 @@ header .header-content .header-content-inner p {
 }
 
 .item-1 {
-	background: url('../images/writing.jpg');
+	background: url('http://www.dailyfreepsd.com/wp-content/uploads/2013/09/turtle-blurred-background.jpg');
 	}
 	
 .item-2 {
-	background: url('../images/concert.jpg');
+    background: url('http://www.localliquid.com.au/wp-content/uploads/2016/05/background.jpg');
 	}
 	
 .item-3 {
@@ -684,12 +684,16 @@ img::-moz-selection {
             <!-- Navbar links -->
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active">
+                    <li>
                         <a href="#">Home</a>
                     </li>
-                    <li>
-                        <a href="#downloads" class="content1">Downloads</a>
-                    </li>
+                    <li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Interactives<span class="caret"></span></a>
+						<ul class="dropdown-menu" aria-labelledby="about-us">
+							<li><a href="#menuDriven">Menu Driven</a></li>
+							<li><a href="#specficInteractives">Specific Interactives</a></li>
+						</ul>
+					</li>
 					<li>
                         <a href="#contact" class="contact">Contact</a>
                     </li>
@@ -723,9 +727,38 @@ img::-moz-selection {
             </div>
         </div>
     </header>
+	
+		<div class="container-fluid">
+        <div class="row promo">
+        	<a href="#menuDriven">
+				<div class="col-md-6 promo-item item-1">
+					<h3>
+						Menu Driven Apps
+					</h3>
+				</div>
+            </a>
+            <a href="#specficInteractives">
+				<div class="col-md-6 promo-item item-2">
+					<h3>
+						Specific Interactive Apps
+					</h3>
+				</div>
+            </a>
+        </div>
+    </div><!-- /.container-fluid -->
 
+	<!-- MenuDriven Interactives -->
+     <section class="content content-3" id="menuDriven">
+        <div class="container">
+			<h2 class="section-header" style="margin-top: 5%;"><span class="fa fa-tablet"></span><br>Menu Driven Interactive Apps</h2>
+			<p class="lead text-muted">Download these iPad files directly to the iPad, for PC's. please Download the zip file, extract them and start playing the app by opening the .exe files</p> 
+                                  
+            </div>
+        </div>
+    </section>
+	
 	<!-- Content 1 -->
-    <section class="content-1" id="downloads">
+    <section class="content-1">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -817,17 +850,37 @@ img::-moz-selection {
                 <div class="col-sm-6">
                 	<h1 class="section-header">Menu Driven</h1>
                 	<h2 class="section-header">Diverse Influences</h2>
-                	<p class="">To be Installed on Gallery 7 PC under Diverse Influences Section.</p>
+                	<p class="lead text-muted">To be Installed on Gallery 7 PC under Diverse Influences Section.</p>
                 	<a href="https://s3.ap-south-1.amazonaws.com/ime-app-ipa-storage/ime-G7-DiverseInfluences/DiverseInfluence+Setup.exe" class="btn btn-primary btn-lg ">Download Now</a>
                 </div>                
                 
             </div>
         </div>
     </section>
+	
+	<!-- Content 5 -->
+     <section class="content-1 content-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                	<h1 class="section-header">Menu Driven</h1>
+                	<h2 class="section-header">Background Scores</h2>
+                	<p class="lead text-light">To be Installed on Gallery 7 PC under Background Scores Section only</p>
+					<a href="https://s3.ap-south-1.amazonaws.com/ime-app-specific-interactive/IME_Background+Score/IME_Background+Score_v2.0_noMedia.zip" class="btn btn-default btn-lg ">Download Now</a>
+                </div>    
+                <div class="col-sm-6">
+					<img class="img-responsive center-block" src="https://www.freeiconspng.com/uploads/television-png-tv-16.png" alt="" style="height: auto; width: inherit;">
+				</div>
+			</div>
+                   
+        </div>            
+                
+            
+    </section>
 
 	
-	<!-- Content 6 -->
-     <section class="content-1 content-2">
+	<!-- Content 7 -->
+     <section class="content-1">
         <div class="container">
             <div class="row">
 				<h1 class="section-header" style="text-align: -webkit-center;">Video Loops</h1>
@@ -836,18 +889,180 @@ img::-moz-selection {
 					</br>
 					</br>
                 	<h2 class="section-header">MemoryBox - iPad</h2>
-                	<p class="lead text-light">To be Installed on Gallery 7 iPads Only - MemoryBox Section</p>
-                	<a href="itms-services://?action=download-manifest&url=https://s3.ap-south-1.amazonaws.com/ime-app-ipa-storage/ime-memoryBoxes/Unity-iPhone.plist" class="btn btn-default btn-lg ">Download Now</a>
+                	<p class="lead text-muted">To be Installed on Gallery 7 iPads Only - MemoryBox Section</p>
+                	<a href="itms-services://?action=download-manifest&url=https://s3.ap-south-1.amazonaws.com/ime-app-ipa-storage/ime-memoryBoxes/Unity-iPhone.plist" class="btn btn-primary btn-lg ">Download Now</a>
                 </div>    
                 <div class="col-sm-6">
                     <h1 class="section-header"></br></h1>
                 	<h2 class="section-header">Landmark Legends - iPad</h2>
-                	<p class="lead text-light">To be Installed on Gallery 7 iPads Only - Landmark Lengends Section</p>
+                	<p class="lead text-muted">To be Installed on Gallery 7 iPads Only - Landmark Lengends Section</p>
                 	<a href="itms-services://?action=download-manifest&url=https://s3.ap-south-1.amazonaws.com/ime-app-ipa-storage/ime-g7-landmarkLegends/Unity-iPhone.plist" class="btn btn-primary btn-lg ">Download Now</a>
                 </div>            
                 
             </div>
         </div>
+    </section>
+	
+	<!-- Specific Interactives -->
+     <section class="content1 content-3 content-2" id="specficInteractives">
+        <div class="container">
+			<h2 class="section-header" style="margin-top: 5%;"><span class="fa fa-television"></span><br>Specific Interactive Apps</h2>
+			<p class="lead text-muted">Download these zip files, extract them and start playing the app by opening the .exe files</p> 
+                                  
+            </div>
+        </div>
+    </section>
+	
+	<!-- Content 1 -->
+    <section class="content-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="img-responsive" src="https://www.freeiconspng.com/uploads/television-png-tv-16.png" alt="" style="height: auto; width: inherit;">
+                </div>
+                <div class="col-sm-6">
+                	<h1 class="section-header">Specific Interactives</h1>
+                	<h2 class="section-header">Raga</h2>
+                	<p class="lead text-muted">To be Installed on Gallery 3 PC under Raga Section only</p>
+                	<a href="https://s3.ap-south-1.amazonaws.com/ime-app-specific-interactive/IME_Raga/IME_Raga_v2.0_withMedia.zip" class="btn btn-primary btn-lg ">Download Now</a>
+                </div>                
+                
+            </div>
+        </div>
+    </section>
+	
+	<!-- Content 2 -->
+     <section class="content-1 content-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                	<h1 class="section-header">Specific Interactives</h1>
+                	<h2 class="section-header">Tala</h2>
+                	<p class="lead text-light">To be Installed on Gallery 3 PC under Tala Section only</p>
+					<a href="https://s3.ap-south-1.amazonaws.com/ime-app-specific-interactive/IME_Tala/Tala+v0.2_m.zip" class="btn btn-default btn-lg ">Download Now</a>
+                </div>    
+                <div class="col-sm-6">
+					<img class="img-responsive center-block" src="https://www.freeiconspng.com/uploads/television-png-tv-16.png" alt="" style="height: auto; width: inherit;">
+				</div>
+			</div>
+                   
+        </div>            
+                
+            
+    </section>
+	
+	<!-- Content 3 -->
+    <section class="content-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="img-responsive" src="https://www.freeiconspng.com/uploads/television-png-tv-16.png" alt="" style="height: auto; width: inherit;">
+                </div>
+                <div class="col-sm-6">
+                	<h1 class="section-header">Specific Interactives</h1>
+                	<h2 class="section-header">World of Composers</h2>
+                	<p class="lead text-muted">To be Installed on Gallery 3 PC under World of Composers Section only</p>
+                	<a href="https://s3.ap-south-1.amazonaws.com/ime-app-specific-interactive/IME_Raga/IME_Raga_v2.0_withMedia.zip" class="btn btn-primary btn-lg ">Download Now</a>
+                </div>                
+                
+            </div>
+        </div>
+    </section>
+	
+	<!-- Content 4 -->
+     <section class="content-1 content-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                	<h1 class="section-header">Specific Interactives</h1>
+                	<h2 class="section-header">Concert Creativity</h2>
+                	<p class="lead text-light">To be Installed on Gallery 3 PC under Concert Creativity Section only</p>
+					<a href="https://s3.ap-south-1.amazonaws.com/ime-app-specific-interactive/IME_Tala/Tala+v0.2_m.zip" class="btn btn-default btn-lg ">Download Now</a>
+                </div>    
+                <div class="col-sm-6">
+					<img class="img-responsive center-block" src="https://www.freeiconspng.com/uploads/television-png-tv-16.png" alt="" style="height: auto; width: inherit;">
+				</div>
+			</div>
+                   
+        </div>            
+                
+            
+    </section>
+	
+	<!-- Content 5 -->
+    <section class="content-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="img-responsive" src="https://www.freeiconspng.com/uploads/television-png-tv-16.png" alt="" style="height: auto; width: inherit;">
+                </div>
+                <div class="col-sm-6">
+                	<h1 class="section-header">Specific Interactives</h1>
+                	<h2 class="section-header">Gharanas</h2>
+                	<p class="lead text-muted">To be Installed on Gallery 3 PC under Gharanas Section only</p>
+                	<a href="https://s3.ap-south-1.amazonaws.com/ime-app-specific-interactive/IME_Raga/IME_Raga_v2.0_withMedia.zip" class="btn btn-primary btn-lg ">Download Now</a>
+                </div>                
+                
+            </div>
+        </div>
+    </section>
+	
+	<!-- Content 6 -->
+     <section class="content-1 content-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                	<h1 class="section-header">Specific Interactives</h1>
+                	<h2 class="section-header">Torch Bearers</h2>
+                	<p class="lead text-light">Please Select Variants from the dropdown, App To be Installed on Gallery 3 PC under Torch Bearers Section only</p>
+					<a href="https://s3.ap-south-1.amazonaws.com/ime-app-specific-interactive/IME_Tala/Tala+v0.2_m.zip" class="btn btn-default btn-lg ">Download Now</a>
+                </div>    
+                <div class="col-sm-6">
+					<img class="img-responsive center-block" src="https://www.freeiconspng.com/uploads/television-png-tv-16.png" alt="" style="height: auto; width: inherit;">
+				</div>
+			</div>
+                   
+        </div>            
+                
+            
+    </section>
+	
+	<!-- Content 7 -->
+    <section class="content-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="img-responsive" src="https://www.freeiconspng.com/uploads/television-png-tv-16.png" alt="" style="height: auto; width: inherit;">
+                </div>
+                <div class="col-sm-6">
+                	<h1 class="section-header">Specific Interactives</h1>
+                	<h2 class="section-header">Instruments</h2>
+                	<p class="lead text-muted">To be Installed on Gallery 5 PC under Instruments Section only</p>
+                	<a href="ms-appinstaller:?source=https://s3.ap-south-1.amazonaws.com/ime-app-specific-interactive/IME_Instruments_Appx/Instruments+Design_1.0.27.0_x86_Debug.appx" class="btn btn-primary btn-lg ">Download Now</a>
+                </div>                
+                
+            </div>
+        </div>
+    </section>
+	
+	<!-- Content 8 -->
+     <section class="content-1 content-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                	<h1 class="section-header">Specific Interactives</h1>
+                	<h2 class="section-header">Torch Bearers</h2>
+                	<p class="lead text-light">Please Select Variants from the dropdown, App To be Installed on Gallery 3 PC under Torch Bearers Section only</p>
+					<a href="https://s3.ap-south-1.amazonaws.com/ime-app-specific-interactive/IME_Tala/Tala+v0.2_m.zip" class="btn btn-default btn-lg ">Download Now</a>
+                </div>    
+                <div class="col-sm-6">
+					<img class="img-responsive center-block" src="https://www.freeiconspng.com/uploads/television-png-tv-16.png" alt="" style="height: auto; width: inherit;">
+				</div>
+			</div>
+                   
+        </div>            
+                
+            
     </section>
        
 	<!-- Footer -->
